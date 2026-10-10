@@ -1,8 +1,8 @@
 # Secret of Evermore 2: Return to Evermore
 
-[![CI](https://github.com/Er2oneousbit/evermore2/actions/workflows/ci.yml/badge.svg)](https://github.com/Er2oneousbit/evermore2/actions/workflows/ci.yml)
+[![CI](https://github.com/Er2oneousbit/nevermore2/actions/workflows/ci.yml/badge.svg)](https://github.com/Er2oneousbit/nevermore2/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Tech demo](https://img.shields.io/badge/download-tech%20demo-orange.svg)](https://github.com/Er2oneousbit/evermore2/releases/tag/tech-demo)
+[![Tech demo](https://img.shields.io/badge/download-tech%20demo-orange.svg)](https://github.com/Er2oneousbit/nevermore2/releases/tag/tech-demo)
 
 A fan sequel to *Secret of Evermore* (Square, 1995): a top-down action RPG
 about a kid (play as a girl or a boy), a shelter dog, and a world built from dreams. Thirty years after
@@ -46,7 +46,7 @@ monitor, from a Steam Deck to a 48:9 triple-wide.
 
 ### The tech demo (download and play)
 
-**[Download the tech demo](https://github.com/Er2oneousbit/evermore2/releases/tag/tech-demo)**
+**[Download the tech demo](https://github.com/Er2oneousbit/nevermore2/releases/tag/tech-demo)**
 for Windows or Linux. No engine needed: unzip and run.
 
 > **The release is only a tech demo of the game mechanics, not the game.** It

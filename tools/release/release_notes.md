@@ -101,7 +101,7 @@ The story, the realms and the real content come later.
 Needs a graphics card with Vulkan or Direct3D 12. The README.txt inside has
 the controls.
 
-Bugs: [open an issue](https://github.com/Er2oneousbit/evermore2/issues).
+Bugs: [open an issue](https://github.com/Er2oneousbit/nevermore2/issues).
 
 *Secret of Evermore is © Square Enix. This is a non-commercial fan project,
 not affiliated with or endorsed by Square Enix. It contains no material from

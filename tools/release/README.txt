@@ -105,7 +105,7 @@ points to him when he's out of view (red while he's being hit).
 
 FEEDBACK AND BUGS
 -----------------
-https://github.com/Er2oneousbit/evermore2/issues
+https://github.com/Er2oneousbit/nevermore2/issues
 
 Credits for every artist and license: CREDITS.md (in this folder).
 Code: MIT License (LICENSE). Art keeps its own licenses (see CREDITS.md).
