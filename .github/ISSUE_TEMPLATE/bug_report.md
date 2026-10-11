@@ -19,7 +19,7 @@ labels: bug
 **Version and renderer** (press F3 in the game; the top lines show them)
 
 **Log file (if it crashed or something went wrong)**
-Windows: `%APPDATA%\Godot\app_userdata\Secret of Evermore 2- Return to Evermore\logs\godot.log`
+Windows: `%APPDATA%\Godot\app_userdata\Mystery of Nevermore- Return to the Dream\logs\godot.log`
 
 ```
 paste the end of the log here

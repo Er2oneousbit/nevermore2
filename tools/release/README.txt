@@ -1,4 +1,4 @@
-Secret of Evermore 2: Return to Evermore
+Mystery of Nevermore: Return to the Dream
 TECH DEMO: game mechanics
 ========================================
 
@@ -7,15 +7,14 @@ built: the HD-2D look, the dog, talking to people, and combat. It gets
 updated as the mechanics are polished. The story, the realms and the
 real content come later.
 
-A non-commercial fan project. Secret of Evermore is (c) Square Enix; this
-is not affiliated with or endorsed by Square Enix and contains no material
-from the original game.
+A non-commercial fan project, inspired by 16-bit action RPGs. Not affiliated
+with any game company; it contains no material from any commercial game.
 
 
 HOW TO START
 ------------
 Windows
-  Evermore2.exe              Opens the title screen. New Game: boy or girl,
+  Nevermore2.exe              Opens the title screen. New Game: boy or girl,
                              name the kid and the dog, then the prologue.
                              Debug is on its menu: pick the prologue, the
                              street, the test yard or the combat arena, the
@@ -31,14 +30,14 @@ Windows
   PC". Click "More info", then "Run anyway".
 
 Linux
-  ./Evermore2.x86_64         The start menu
+  ./Nevermore2.x86_64         The start menu
   ./combat-arena.sh          The combat arena (add --hard for Hard)
   ./test-yard.sh             The test yard
 
-  If it won't start: chmod +x Evermore2.x86_64 *.sh
+  If it won't start: chmod +x Nevermore2.x86_64 *.sh
 
 It needs a graphics card with Vulkan or Direct3D 12. On an older computer,
-start it with:  Evermore2.exe --rendering-method gl_compatibility
+start it with:  Nevermore2.exe --rendering-method gl_compatibility
 (it still runs, without the light shafts, reflections and blur).
 
 

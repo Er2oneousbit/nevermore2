@@ -1,15 +1,15 @@
-# Secret of Evermore 2: Return to Evermore
+# Mystery of Nevermore: Return to the Dream
 
 [![CI](https://github.com/Er2oneousbit/nevermore2/actions/workflows/ci.yml/badge.svg)](https://github.com/Er2oneousbit/nevermore2/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Tech demo](https://img.shields.io/badge/download-tech%20demo-orange.svg)](https://github.com/Er2oneousbit/nevermore2/releases/tag/tech-demo)
 
-A fan sequel to *Secret of Evermore* (Square, 1995): a top-down action RPG
-about a kid (play as a girl or a boy), a shelter dog, and a world built from dreams. Thirty years after
-the original, Professor Ruffleberg's machine wakes up again, and so does Carltron.
+A top-down action RPG about a kid (play as a girl or a boy), a shelter dog, and
+a world built from dreams. In a quiet town, a professor's old machine wakes up
+again, and so does the android butler who was switched off beside it.
 
-It's drawn the way Square Enix remakes its own SNES classics (Octopath
-Traveler, Dragon Quest III HD-2D): pixel-art sprites standing in a lit 3D world,
+It's drawn in the HD-2D style (think Octopath Traveler):
+pixel-art sprites standing in a lit 3D world,
 with real sun shadows, light shafts through the trees, tilt-shift blur, a
 reflective pond and drifting cloud shadows. It runs pixel-perfect on any
 monitor, from a Steam Deck to a 48:9 triple-wide.
@@ -54,14 +54,14 @@ for Windows or Linux. No engine needed: unzip and run.
 > and it's updated in place as they're polished. The story, the realms and the
 > real content come later.
 
-Inside: `Evermore2.exe` opens the title screen (New Game starts the prologue; Debug picks any map), `Combat arena.bat` the fight
+Inside: `Nevermore2.exe` opens the title screen (New Game starts the prologue; Debug picks any map), `Combat arena.bat` the fight
 in a big countryside with giant rats by day, skeletons that rise from the ground at dusk and bats from
 the oaks by night (also on Hard), `Test yard.bat` the yard where a whole day goes by in 24 minutes (two shops,
 one that closes at night, no enemies). The three are joined by paths: follow the
 prologue street's road east to the yard, and the yard's shop street north to
 the arena. The
 exe isn't code-signed, so Windows may warn you: **More info**, then
-**Run anyway**. On Linux use `./Evermore2.x86_64`, `./combat-arena.sh` and
+**Run anyway**. On Linux use `./Nevermore2.x86_64`, `./combat-arena.sh` and
 `./test-yard.sh`.
 
 ### From source
@@ -127,9 +127,9 @@ one-person project, so pull requests and feature requests aren't taken.
 
 ---
 
-*Secret of Evermore is © Square Enix. This is a non-commercial fan project,
-not affiliated with or endorsed by Square Enix. It contains no material from
-the original game.*
+*This is a non-commercial fan project, inspired by 16-bit action RPGs. It is
+not affiliated with or endorsed by any game company and contains no material
+from any commercial game.*
 
 Written with help from Claude (Anthropic) via Claude Code.
 

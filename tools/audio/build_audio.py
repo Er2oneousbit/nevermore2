@@ -524,7 +524,7 @@ def write_credits():
         used.setdefault(key, []).append(f"ambience/{name}.ogg  <-  {rel} (looped)")
     for key in (WIND_BED, WIND_GUSTS):
         used.setdefault(key[0], []).append(f"ambience/wind.ogg  <-  {key[1]} (mixed and looped)")
-    lines = ["Audio used by Secret of Evermore 2: Return to Evermore",
+    lines = ["Audio used by Mystery of Nevermore: Return to the Dream",
              "Rebuilt by tools/audio/build_audio.py. Every source below is CC0 (public domain);",
              "credit is given anyway, with thanks. Sound effects are trimmed, mixed to mono and",
              "normalized; ambience loops have their end crossfaded into their start.", ""]

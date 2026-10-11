@@ -18,7 +18,7 @@
 #   Debug.log_warn("text")     printed + shows in the editor's Debugger panel
 #   Debug.log_error("text")    printed + shows in the editor's Debugger panel
 #   Godot also writes every print to user://logs/godot.log automatically.
-#   (On Windows: %APPDATA%\Godot\app_userdata\Secret of Evermore 2...\logs)
+#   (On Windows: %APPDATA%\Godot\app_userdata\Mystery of Nevermore...\logs)
 #
 # Written with help from Claude (Anthropic) via Claude Code.
 # Made with ❤️ from your friendly hacker - er2oneousbit
@@ -31,7 +31,7 @@ signal overlay_toggled(is_visible: bool)
 const OVERLAY_SCENE := preload("res://ui/debug_overlay/debug_overlay.tscn")
 
 const HELP_TEXT := """
-Secret of Evermore 2 - command line options
+Mystery of Nevermore - command line options
 Usage:  godot --path <project folder> -- [options]
         (or, for an exported build:  evermore2.exe -- [options])
 
