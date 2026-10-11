@@ -91,8 +91,8 @@ func _test_intro() -> void:
 func _test_build() -> void:
 	await _go_title()
 	var t := _title()
-	_check(t.logo_label != null and t.logo_label.text == "Secret of Evermore 2", "the logo reads the game title (%s)" % t.logo_label.text)
-	_check(t.subtitle_label != null and t.subtitle_label.text == "Return to Evermore", "with 'Return to Evermore' beneath")
+	_check(t.logo_label != null and t.logo_label.text == "Mystery of Nevermore", "the logo reads the game title (%s)" % t.logo_label.text)
+	_check(t.subtitle_label != null and t.subtitle_label.text == "Return to the Dream", "with 'Return to the Dream' beneath")
 	_check(t.prompt_label != null and t.prompt_label.text == "Press any key", "and the prompt")
 	for id in ["new_game", "continue", "settings", "debug", "quit"]:
 		_check(t.menu_buttons.has(id), "menu item %s exists" % id)

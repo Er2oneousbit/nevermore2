@@ -1,14 +1,13 @@
-# Developing Secret of Evermore 2
+# Developing Mystery of Nevermore
 
 Setup, commands, tests, the art pipeline and the project's rules. What the game
 is and how it plays is in the [README](../README.md); what's next is in
 [ROADMAP.md](ROADMAP.md).
 
-## The one hard rule: no Square Enix material
+## The one hard rule: no commercial game material
 
-This is a fan project. Nothing from *Secret of Evermore* or any other commercial
-game goes in the repo: no ripped art, sound, music, text, maps or data. Names of
-the original's characters and places are referenced as fan canon only. All art
+Nothing from any commercial game goes in the repo: no ripped art, sound, music,
+text, maps or data. All art
 comes from free libraries with licenses that allow redistribution (see
 [CREDITS.md](../CREDITS.md)) or is written for this project.
 
@@ -287,7 +286,7 @@ a character file. Proper nouns go in `data/names.json`, never in the script text
   back to it. An explicit `--resolution` on the command line wins; headless
   runs skip it. The math is `Settings.auto_window_size` / `resolve_window_size`.
 * Saved to `user://settings.cfg` (on Windows:
-  `%APPDATA%\Godot\app_userdata\Secret of Evermore 2- Return to Evermore`).
+  `%APPDATA%\Godot\app_userdata\Mystery of Nevermore- Return to the Dream`).
   Delete it to get the defaults back.
 * Tests never read or write it: a run whose scene is under `res://tests/`
   keeps settings in memory, on the defaults.
@@ -338,8 +337,8 @@ To export locally, install the Godot 4.7.2 export templates (Editor →
 Manage Export Templates), then:
 
 ```sh
-godot --headless --path . --export-release Windows export/windows/Evermore2.exe
-godot --headless --path . --export-release Linux export/linux/Evermore2.x86_64
+godot --headless --path . --export-release Windows export/windows/Nevermore2.exe
+godot --headless --path . --export-release Linux export/linux/Nevermore2.x86_64
 ```
 
 Exports only include Godot resources. Files the game reads itself (like the

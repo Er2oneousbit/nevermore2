@@ -2,7 +2,13 @@
 as they get built, and this release is updated in place as they're polished.
 The story, the realms and the real content come later.
 
-## New in this update (v0.6)
+## New in this update (v0.7)
+
+* **The game is now *Mystery of Nevermore: Return to the Dream***: a new title
+  on the title screen, a renamed `Nevermore2` exe and downloads, and no more
+  wording that points at another game. The story's own names come later
+
+### Earlier (v0.6)
 
 * **A title screen**: the game opens on a slow 10-second climb up the
   Ruffleberg lot's path to the mansion on its hill, a flickering green window
@@ -92,10 +98,10 @@ The story, the realms and the real content come later.
 
 ## Downloads
 
-* **Windows**: `Evermore2-tech-demo-windows.zip`. Unzip, run `Evermore2.exe`
+* **Windows**: `Nevermore2-tech-demo-windows.zip`. Unzip, run `Nevermore2.exe`
   for the title screen (Debug on its menu picks any map), or `Test yard.bat` / `Combat arena.bat` to jump in. The exe isn't signed,
   so Windows may warn you: **More info**, then **Run anyway**
-* **Linux**: `Evermore2-tech-demo-linux.tar.gz`. Run `./Evermore2.x86_64`,
+* **Linux**: `Nevermore2-tech-demo-linux.tar.gz`. Run `./Nevermore2.x86_64`,
   `./test-yard.sh` or `./combat-arena.sh`
 
 Needs a graphics card with Vulkan or Direct3D 12. The README.txt inside has
@@ -103,6 +109,6 @@ the controls.
 
 Bugs: [open an issue](https://github.com/Er2oneousbit/nevermore2/issues).
 
-*Secret of Evermore is © Square Enix. This is a non-commercial fan project,
-not affiliated with or endorsed by Square Enix. It contains no material from
-the original game.*
+*This is a non-commercial fan project, inspired by 16-bit action RPGs. It is
+not affiliated with or endorsed by any game company and contains no material
+from any commercial game.*

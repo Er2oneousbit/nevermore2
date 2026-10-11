@@ -102,6 +102,16 @@ the orange shelter tag).
 | 2026-10-06 | **Any monitor shape**, 16:9 to 48:9 and Steam Deck, pixel-perfect: integer scaling that fills the window, no black bars |
 | (design bible) | Story, cast, realms, dog forms and Mission 1 are locked in [design-bible.md](design-bible.md) section 2 |
 
+## Released: v0.7.0 (2026-10-11)
+
+The retitle: the game is *Mystery of Nevermore: Return to the Dream* (title
+screen, project name, exe and download names, README, release notes, security
+and contributing docs, the repo renamed to `nevermore2`). The sequel wording and
+the Square Enix disclaimer are gone. The story's names (Carltron, Ruffleberg,
+Podunk, Evermore) are NOT renamed yet; that and a history purge wait for the
+owner's picks (Next up item 0). The old `tech-demo` release was deleted and
+rebuilt.
+
 ## Released: v0.6.0 (2026-10-10)
 
 The title screen milestone, plus what came with it: a title screen with a

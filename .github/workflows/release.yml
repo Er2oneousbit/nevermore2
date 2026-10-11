@@ -56,18 +56,18 @@ jobs:
       - name: Export
         run: |
           mkdir -p export/windows export/linux
-          "$GODOT" --headless --path . --export-release Windows export/windows/Evermore2.exe
-          "$GODOT" --headless --path . --export-release Linux export/linux/Evermore2.x86_64
-          test -s export/windows/Evermore2.exe
-          test -s export/linux/Evermore2.x86_64
+          "$GODOT" --headless --path . --export-release Windows export/windows/Nevermore2.exe
+          "$GODOT" --headless --path . --export-release Linux export/linux/Nevermore2.x86_64
+          test -s export/windows/Nevermore2.exe
+          test -s export/linux/Nevermore2.x86_64
 
       - name: Start the exported build on every demo map
         run: |
-          chmod +x export/linux/Evermore2.x86_64
+          chmod +x export/linux/Nevermore2.x86_64
           fail=0
           # "" starts the title screen (the main scene); the others skip it.
           for args in "" "--arena" "--yard" "--arena --hard"; do
-            out=$(export/linux/Evermore2.x86_64 --headless --quit-after 300 -- --verbose $args 2>&1) || true
+            out=$(export/linux/Nevermore2.x86_64 --headless --quit-after 300 -- --verbose $args 2>&1) || true
             if echo "$out" | grep -E "ERROR|SCRIPT ERROR" ; then
               echo "::error::exported build logged errors with '$args'"
               fail=1
@@ -85,8 +85,8 @@ jobs:
           cp tools/release/*.sh export/linux/
           chmod +x export/linux/*.sh
           mkdir -p dist
-          (cd export && mv windows Evermore2 && zip -qr ../dist/Evermore2-tech-demo-windows.zip Evermore2 && mv Evermore2 windows)
-          (cd export && mv linux Evermore2 && tar -czf ../dist/Evermore2-tech-demo-linux.tar.gz Evermore2 && mv Evermore2 linux)
+          (cd export && mv windows Nevermore2 && zip -qr ../dist/Nevermore2-tech-demo-windows.zip Nevermore2 && mv Nevermore2 windows)
+          (cd export && mv linux Nevermore2 && tar -czf ../dist/Nevermore2-tech-demo-linux.tar.gz Nevermore2 && mv Nevermore2 linux)
           ls -la dist
 
       - name: Publish the release
