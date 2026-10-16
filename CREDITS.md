@@ -122,6 +122,19 @@ Full detail per layer: `credits/<name>/credits.txt` / `credits.csv`.
   made from the front-facing frame (`tools/art/build_art.py`, `build_bat`). Detail and the
   license text: `credits/enemies/`.
 
+* **Skeleton** (`assets/characters/enemies/skeleton/skeleton_lpc.png`): the "Skeleton" body
+  and head layers of the
+  [Universal LPC Spritesheet Character Generator](https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator/),
+  by **bluecarrot16, Napsio, JaidynReiman, Johannes Sjolund (wulax)** and **Stephen Challener (Redshrike)**
+  ([LPC Skeleton](https://opengameart.org/content/lpc-skeleton),
+  [LPC Medieval Fantasy Character Sprites](https://opengameart.org/content/lpc-medieval-fantasy-character-sprites),
+  [LPC Base Assets](https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles)).
+  The layers offer OGA-BY 3.0, CC-BY-SA 3.0 or GPL 3.0; this project uses them under
+  **OGA-BY 3.0**. Modified by this project: body and head composited, frames re-laid per direction,
+  and the "rise" frames built from the standing frame (`tools/art/build_art.py`, `build_skeleton`).
+  Detail: `credits/enemies/skeleton_credits.txt`. Its sounds are the existing CC0 packs' clips
+  pitched up (no new files).
+
 ## Ground tileset: `assets/tilesets/lpc_revised/terrain_summer.png`
 
 * [LPC Revised - Fully Configured 4 Seasons Tilesets for Tiled Map Editor](https://opengameart.org/content/lpc-revised-fully-configured-4-seasons-tilesets-for-tiled-map-editor)
@@ -157,7 +170,7 @@ and it's given anyway, with thanks. Cut, mixed to mono and normalized by
   "A Place I Call Home" (dinner), "Childhood Friends" (the dare),
   "Grasslands" (the test yard, day), "Tropical Island" (day), "Childhood
   Friends" (night), "Innocence" (night), "Preparing For Battle" (the combat arena),
-  "Prairie Nights" (the title screen)
+  (the title screen now uses the music box below)
 * **Font**: Cinzel by the Cinzel Project Authors (<https://github.com/NDISCOVER/Cinzel>),
   SIL Open Font License 1.1, used for the title screen and its menus
   (`assets/fonts/Cinzel.ttf`, licence text in `credits/fonts/OFL-Cinzel.txt`)
@@ -179,6 +192,12 @@ and it's given anyway, with thanks. Cut, mixed to mono and normalized by
   steps ([OpenGameArt](https://opengameart.org/content/fantozzis-footsteps-grasssand-stone))
 * **Birds and Wind - Ambient** by Spring Spring: the daytime ambience
   ([OpenGameArt](https://opengameart.org/content/birds-and-wind-ambient-birds-wind-and-synth))
+* **4 Music Box Tracks** by Aureolus_Omicron (CC0): the spooky waltz, the
+  title screen's music ([OpenGameArt](https://opengameart.org/content/4-music-box-tracks))
+* **Loopable Dungeon Ambience** by JaggedStone (CC0, low-passed) and **Wind
+  Whoosh Loop** by SketchMan3 (CC0): mixed into the title's wind
+  ([dungeon](https://opengameart.org/content/loopable-dungeon-ambience),
+  [whoosh](https://opengameart.org/content/wind-whoosh-loop))
 * **Crickets Ambient Noise** by Wolfgang_ (attribution notice: Ted Kerr): the
   night ambience ([OpenGameArt](https://opengameart.org/content/crickets-ambient-noise-loopable))
 * **Forest bird sounds** by pauliuw: the occasional bird by day

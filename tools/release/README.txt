@@ -1,4 +1,4 @@
-Secret of Evermore 2: Return to Evermore
+Mystery of Nevermore: Return to the Dream
 TECH DEMO: game mechanics
 ========================================
 
@@ -7,22 +7,21 @@ built: the HD-2D look, the dog, talking to people, and combat. It gets
 updated as the mechanics are polished. The story, the realms and the
 real content come later.
 
-A non-commercial fan project. Secret of Evermore is (c) Square Enix; this
-is not affiliated with or endorsed by Square Enix and contains no material
-from the original game.
+A non-commercial fan project, inspired by 16-bit action RPGs. Not affiliated
+with any game company; it contains no material from any commercial game.
 
 
 HOW TO START
 ------------
 Windows
-  Evermore2.exe              Opens the title screen. New Game: boy or girl,
+  Nevermore2.exe              Opens the title screen. New Game: boy or girl,
                              name the kid and the dog, then the prologue.
                              Debug is on its menu: pick the prologue, the
                              street, the test yard or the combat arena, the
                              start time and Normal/Hard
   Combat arena.bat           The combat arena: a big countryside (100 x 56
-                             tiles) with giant rats, rats that go home at
-                             dusk and bats that roost in the oaks
+                             tiles): giant rats by day, skeletons and bats
+                             by night
   Combat arena (Hard).bat    The same on Hard
   Test yard.bat              The test yard: shops, hidden items and a
                              clock that runs (no enemies here)
@@ -31,14 +30,14 @@ Windows
   PC". Click "More info", then "Run anyway".
 
 Linux
-  ./Evermore2.x86_64         The start menu
+  ./Nevermore2.x86_64         The start menu
   ./combat-arena.sh          The combat arena (add --hard for Hard)
   ./test-yard.sh             The test yard
 
-  If it won't start: chmod +x Evermore2.x86_64 *.sh
+  If it won't start: chmod +x Nevermore2.x86_64 *.sh
 
 It needs a graphics card with Vulkan or Direct3D 12. On an older computer,
-start it with:  Evermore2.exe --rendering-method gl_compatibility
+start it with:  Nevermore2.exe --rendering-method gl_compatibility
 (it still runs, without the light shafts, reflections and blur).
 
 
@@ -105,7 +104,7 @@ points to him when he's out of view (red while he's being hit).
 
 FEEDBACK AND BUGS
 -----------------
-https://github.com/Er2oneousbit/evermore2/issues
+https://github.com/Er2oneousbit/nevermore2/issues
 
 Credits for every artist and license: CREDITS.md (in this folder).
 Code: MIT License (LICENSE). Art keeps its own licenses (see CREDITS.md).
@@ -120,5 +119,5 @@ Day and night: in the test yard and the combat arena a day lasts 24 minutes
 (F9 speeds it up). The corner store closes at night; the all-night stand
 doesn't. At night the kid misses more outside his flashlight beam, the dog
 smells enemies (they glow while you drive him), and in the arena rats go
-home and bats drop out of the oaks.
+home while skeletons rise out of the ground and bats fly out of the oaks.
 Watch for a bat's squeak and dip before it dives: step aside.

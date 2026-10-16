@@ -9,6 +9,7 @@
 #          Audio.set_ambience("outdoor")                  birds by day, crickets
 #                                                         at night (follows the
 #                                                         time of day by itself)
+#          Audio.set_ambience("haunted")                  wind (the title screen)
 #          Audio.set_music_set("outdoor")                 music that follows the
 #                                                         time of day too: two
 #                                                         day and two night tracks,
@@ -57,6 +58,12 @@ const SOUNDS := {
 	# and a wing flap (the swing's whoosh, sped up).
 	"rustle":     {"files": ["step_grass_2", "step_grass_4", "step_grass_6"], "db": -11.0, "pitch": 0.2, "base": 0.8},
 	"wing_flap":  {"files": ["swing_1", "swing_3"], "db": -15.0, "pitch": 0.15, "base": 1.8},
+	# The skeleton: stone clacks and punches pitched up read as bones.
+	"bone_rattle": {"files": ["step_stone_2", "step_stone_4", "step_stone_6"], "db": -10.0, "pitch": 0.2, "base": 1.9},
+	"bone_clack":  {"files": ["hit_2", "hit_4"], "db": -5.0, "pitch": 0.1, "base": 1.5},
+	"bone_pain":   {"files": ["step_stone_1", "step_stone_3"], "db": -8.0, "pitch": 0.1, "base": 1.5},
+	"bone_crumble": {"files": ["step_stone_5", "step_stone_3", "step_stone_1"], "db": -8.0, "pitch": 0.12, "base": 0.8},
+	"grave_dirt":  {"files": ["dig"], "db": -9.0, "pitch": 0.08, "base": 0.75},
 	"rat_squeak": {"files": ["rat_squeak"], "db": -13.0, "pitch": 0.08},
 	"rat_pain":   {"files": ["rat_pain"], "db": -12.0, "pitch": 0.1},
 	"rat_death":  {"files": ["rat_death"], "db": -11.0, "pitch": 0.06},
@@ -85,7 +92,7 @@ const SOUNDS := {
 ## Music name -> file in MUSIC_DIR. The tracks loop seamlessly.
 const MUSIC := {
 	"home": "home", "lot": "lot", "yard": "yard", "arena": "arena",
-	"tropical": "tropical", "innocence": "innocence", "title": "title",
+	"tropical": "tropical", "innocence": "innocence", "mansion": "mansion",
 }
 ## A music set -> the track list for each time of day. Going INTO a time picks
 ## the next track of its list (so day, night, day plays the other day track).
@@ -124,10 +131,12 @@ const EMOTION_VOICE := {
 const AMBIENCE_DIR := "res://assets/audio/ambience/"
 ## Ambience loop -> [file in AMBIENCE_DIR, volume dB]. Both sit about 10 dB
 ## under the music (measured: day -24 dBFS, night -19 dBFS before this).
-const AMBIENCE := {"day": ["day", -6.0], "night": ["night", -11.0]}
+## "wind" is the title screen's: low and steady, the mansion's night.
+const AMBIENCE := {"day": ["day", -6.0], "night": ["night", -11.0], "wind": ["wind", -8.0]}
 ## A kind of place -> which loop for each time of day ("" = none).
 const AMBIENCE_SETS := {
 	"outdoor": {"morning": "day", "day": "day", "golden": "day", "night": "night"},
+	"haunted": {"morning": "wind", "day": "wind", "golden": "wind", "night": "wind"},
 }
 ## Outdoors by day, a bird calls every so often (seconds, random in between),
 ## from somewhere around the camera (px).

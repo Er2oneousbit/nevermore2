@@ -1,7 +1,7 @@
 {
   "_comment": "Every proper noun in the game lives here. Code calls Names.text(\"key\"); dialogue writes {key}. Never hardcode these strings in scripts, scenes or .dlg files. Keys starting with _ are comments and are never displayed.",
 
-  "game_title": "Secret of Evermore 2: Return to Evermore",
+  "game_title": "Mystery of Nevermore: Return to the Dream",
   "world": "Evermore",
   "town": "Podunk",
 
